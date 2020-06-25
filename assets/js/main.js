@@ -124,21 +124,22 @@ let num1 = Number(prompt('Введіть число'));
 let num2 = Number(prompt('Введіть число'));
 let num3 = Number(prompt('Введіть число'));
 
-let maxValue;
-let minValue;
+let maxValue = num1;
+let minValue = num2;
 
-if (num1 > num2 && num2 > num3) {
-    maxValue = num1, minValue = num3;
-    console.log(maxValue, minValue);
-} else if (num2 > num3 && num3 > num1) {
-    maxValue = num2, minValue = num1;
-    console.log(maxValue, minValue);
-} else if (num3 > num1 && num1 > num2) {
-    maxValue = num3, minValue = num2;
-    console.log(maxValue, minValue);
-} else if (num1 === num2 && num2 === num3) {
+if (num2 < minValue) {
+    minValue = num2;
+} if (num3 < minValue) {
+    minValue = num3;
+} if (num2 > maxValue) {
+    maxValue = num2;  
+} if (num3 > maxValue) {
+    maxValue = num3;
+} if (num1 === num2 && num2 === num3) {
     console.log('Всі числа рівні');
 }
+
+console.log(minValue, maxValue);
 /* Завдання 9:*/
 /* Завдання 10:*/
 let rating = Number(prompt('Введіть число'));
@@ -162,5 +163,4 @@ if (rating >= 10) {
 }  else {
     console.log('Вибачте оцінка поставлена не вірно');
 }
-// Перевод дожен учитывать невалидную оценку и выбрасывать оповещение об ошибке.
 /* Завдання 10:*/
