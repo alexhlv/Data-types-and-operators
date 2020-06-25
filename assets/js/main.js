@@ -1,146 +1,144 @@
 /* Завдання 1:*/
-// let value = Number(prompt('Введіть число'));
+let value = Number(prompt('Введіть число'));
 
-// if (value===10) {
-//     console.log('Вірно');
-// }
-// else {
-//     console.log('Не вірно');
-// }
-// /* Завдання 1:*/
-// /* Завдання 2:*/
-// let name = prompt('Введіть ваше ім\'я');
+if (value===10) {
+    console.log('Вірно');
+}
+else {
+    console.log('Не вірно');
+}
+/* Завдання 1:*/
+/* Завдання 2:*/
+let name = prompt('Введіть ваше ім\'я');
 
-// if (name==='Jonh') {
-//     console.log('Привіт Jonh');
-// }
-// else {
-//     console.log('');
-// }
+if (name==='Jonh') {
+    console.log('Привіт Jonh');
+}
+else {
+    console.log('');
+}
 /* Завдання 2:*/
 /* Завдання 3:*/
-// let time = prompt('Введіть значення від 0 до 59');
+let time = prompt('Введіть значення від 0 до 59');
 
-// let result;
+let result;
 
-// if (time >= 0 && time <= 15) {
-//     result = 'Перша четверть часа';
-// } else if (time >= 16 && time <= 30) {
-//     result = 'Друга четверть часа';
-// } else if (time >= 31 && time <= 45) {
-//     result = 'Третя четверть часа';
-// } else if (time >= 46 && time <= 59) {
-//     result = 'Четверта четверть часа';
-// } else {
-//     result = 'Час не відомий';
-// }
-// console.log(result);
+if (time >= 0 && time <= 15) {
+    result = 'Перша четверть часа';
+} else if (time >= 16 && time <= 30) {
+    result = 'Друга четверть часа';
+} else if (time >= 31 && time <= 45) {
+    result = 'Третя четверть часа';
+} else if (time >= 46 && time <= 59) {
+    result = 'Четверта четверть часа';
+} else {
+    result = 'Час не відомий';
+}
+console.log(result);
 /* Завдання 3:*/
 /* Завдання 4:*/
-// let a = Number(prompt('Введіть значення від 0 до 6'));
-// let b = Number(prompt('Введіть значення від 0 до 6'));
+let a = Number(prompt('Введіть значення від 0 до 6'));
+let b = Number(prompt('Введіть значення від 0 до 6'));
 
-// let result;
+let result;
 
-// if (a <= 1 && b >= 3) {
-//     result = a + b;
-// } else if (a === 0 && b === 6) {
-//     result = a - b;
-// } else if (a === 3 && b === 5) {
-//     result = a - b;
-// } else {
-//     result = 'Змінні задані не вірно';
-// }
+if (a <= 1 && b >= 3) {
+    result = a + b;
+} else if (a === 0 && b === 6) {
+    result = a - b;
+} else if (a === 3 && b === 5) {
+    result = a - b;
+} else {
+    result = 'Змінні задані не вірно';
+}
 
-// console.log(result);
+console.log(result);
 /* Завдання 4:*/
 /* Завдання 5:*/
-// let num = prompt('Оцените фильм "Титаник" от 1 до 5');
+let num = prompt('Оцените фильм "Титаник" от 1 до 5');
 
-// let result;
+let result;
 
-// switch(num) {
-//     case '1':
-//         result = 'Зима';
-//         break;
-//     case '2':
-//         result = 'Весна';
-//         break;
-//     case '3':
-//         result = 'Літо';
-//         break;
-//     case '4':
-//         result = 'Осінь';
-//         break;
-//     default: result = 'Пора року не визначена';
-// }
+switch(num) {
+    case '1':
+        result = 'Зима';
+        break;
+    case '2':
+        result = 'Весна';
+        break;
+    case '3':
+        result = 'Літо';
+        break;
+    case '4':
+        result = 'Осінь';
+        break;
+    default: result = 'Пора року не визначена';
+}
 
-// console.log(result);
+console.log(result);
 /* Завдання 5:*/
 /* Завдання 6:*/
-// let login = prompt('Введіть свій логін');
-// let password = prompt('Введіть свій пароль');
+let login = prompt('Введіть свій логін');
+let password = prompt('Введіть свій пароль');
 
-// if (login == 'ivan' && password == 333) {
-//     console.log('Ласкаво просимо');
-// } else if (login == 'ssss' && password == 666) {
-//     console.log('Ласкаво просимо');
-// } else if (login == 'gibs' && password == 0000) {
-//     console.log('Ласкаво просимо');
-// } else {
-//     console.log('Користувач не знайдений');
-// }
+if (login == 'ivan' && password == 333) {
+    console.log('Ласкаво просимо');
+} else if (login == 'ssss' && password == 666) {
+    console.log('Ласкаво просимо');
+} else if (login == 'gibs' && password == 0000) {
+    console.log('Ласкаво просимо');
+} else {
+    console.log('Користувач не знайдений');
+}
 /* Завдання 6:*/
 /* Завдання 7:*/
-// let userAge = prompt('Введіть свій вік');
+let userAge = prompt('Введіть свій вік');
 
-// let userResult = (userAge >= 21) ? "You may enter" :
-//     "You may not enter";
+let userResult = (userAge >= 21) ? "You may enter" :
+    "You may not enter";
 
-// console.log(userResult);
+console.log(userResult);
 /* Завдання 7:*/
 /* Завдання 8:*/
-// let num1 = Number(prompt('Введіть число'));
-// let num2 = Number(prompt('Введіть число'));
-// let num3 = Number(prompt('Введіть число'));
+let num1 = Number(prompt('Введіть число'));
+let num2 = Number(prompt('Введіть число'));
+let num3 = Number(prompt('Введіть число'));
 
-// let maxValue;
+let maxValue;
 
-// if (num1 > num2 && num2 > num3) {
-//     maxValue = num1;
-//     console.log(maxValue);
-// } else if (num1 < num2 && num2 > num3) {
-//     maxValue = num2;
-//     console.log(maxValue);
-// } else if (num1 < num2 && num2 < num3) {
-//     maxValue = num3;
-//     console.log(maxValue);
-// } else if (num1 === num2 && num2 === num3) {
-//     console.log('Всі числа рівні');
-// }
+if (num1 > num2 && num2 > num3) {
+    maxValue = num1;
+    console.log(maxValue);
+} else if (num1 < num2 && num2 > num3) {
+    maxValue = num2;
+    console.log(maxValue);
+} else if (num1 < num2 && num2 < num3) {
+    maxValue = num3;
+    console.log(maxValue);
+} else if (num1 === num2 && num2 === num3) {
+    console.log('Всі числа рівні');
+}
 /* Завдання 8:*/
 /* Завдання 9:*/
+let num1 = Number(prompt('Введіть число'));
+let num2 = Number(prompt('Введіть число'));
+let num3 = Number(prompt('Введіть число'));
 
-// let num1 = Number(prompt('Введіть число'));
-// let num2 = Number(prompt('Введіть число'));
-// let num3 = Number(prompt('Введіть число'));
+let maxValue;
+let minValue;
 
-// let maxValue;
-// let minValue;
-
-// if (num1 > num2 && num2 > num3) {
-//     maxValue = num1, minValue = num3;
-//     console.log(maxValue, minValue);
-// } else if (num2 > num3 && num3 > num1) {
-//     maxValue = num2, minValue = num1;
-//     console.log(maxValue, minValue);
-// } else if (num3 > num1 && num1 > num2) {
-//     maxValue = num3, minValue = num2;
-//     console.log(maxValue, minValue);
-// } else if (num1 === num2 && num2 === num3) {
-//     console.log('Всі числа рівні');
-// }
-
+if (num1 > num2 && num2 > num3) {
+    maxValue = num1, minValue = num3;
+    console.log(maxValue, minValue);
+} else if (num2 > num3 && num3 > num1) {
+    maxValue = num2, minValue = num1;
+    console.log(maxValue, minValue);
+} else if (num3 > num1 && num1 > num2) {
+    maxValue = num3, minValue = num2;
+    console.log(maxValue, minValue);
+} else if (num1 === num2 && num2 === num3) {
+    console.log('Всі числа рівні');
+}
 /* Завдання 9:*/
 /* Завдання 10:*/
 let rating = Number(prompt('Введіть число'));
@@ -161,6 +159,8 @@ if (rating >= 10) {
 } else if (rating <= 2) {
     mark = 1;
     console.log(mark);
+}  else {
+    console.log('Вибачте оцінка поставлена не вірно');
 }
 // Перевод дожен учитывать невалидную оценку и выбрасывать оповещение об ошибке.
 /* Завдання 10:*/
