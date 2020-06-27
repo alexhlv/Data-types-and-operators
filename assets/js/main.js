@@ -20,7 +20,6 @@ else {
 /* Завдання 2:*/
 /* Завдання 3:*/
 let time = prompt('Введіть значення від 0 до 59');
-
 let result;
 
 if (time >= 0 && time <= 15) {
@@ -39,7 +38,6 @@ console.log(result);
 /* Завдання 4:*/
 let a = Number(prompt('Введіть значення від 0 до 6'));
 let b = Number(prompt('Введіть значення від 0 до 6'));
-
 let result;
 
 if (a <= 1 && b >= 3) {
@@ -56,7 +54,6 @@ console.log(result);
 /* Завдання 4:*/
 /* Завдання 5:*/
 let num = prompt('Оцените фильм "Титаник" от 1 до 5');
-
 let result;
 
 switch(num) {
@@ -103,7 +100,6 @@ console.log(userResult);
 let num1 = Number(prompt('Введіть число'));
 let num2 = Number(prompt('Введіть число'));
 let num3 = Number(prompt('Введіть число'));
-
 let maxValue;
 
 if (num1 > num2 && num2 > num3) {
@@ -123,7 +119,6 @@ if (num1 > num2 && num2 > num3) {
 let num1 = Number(prompt('Введіть число'));
 let num2 = Number(prompt('Введіть число'));
 let num3 = Number(prompt('Введіть число'));
-
 let maxValue = num1;
 let minValue = num2;
 
